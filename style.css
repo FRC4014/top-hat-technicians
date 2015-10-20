@@ -1,0 +1,191 @@
+/* 
+Theme Name: Top Hat Technicians
+Theme URI: http://tophattechnicians.com/
+Description: Modifications to the responsive theme
+Template: responsive
+Version: 4
+Author: Lucas LeVieux
+Author URI: https://lucaslevieux.com/
+License: GNU General Public License
+*/
+
+/* General */
+@import url(https://fonts.googleapis.com/css?family=Lora);
+body {
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	letter-spacing: 150%;
+	}
+h1, h2, h3, h4, h5 {
+	color: black;
+	}
+h2 {
+	text-align: center;
+	margin-top: 50px;
+	}
+h2:before { 
+	display: block; 
+	content: " "; 
+	margin-top: -50px; 
+	height: 50px; 
+	visibility: hidden; 
+	outline: none;
+	}
+hr {
+	clear: both;
+	width: 80%;
+	height: 3px;
+	}
+a {
+	color: grey;
+	}
+
+
+
+/*Front Page*/
+h2.featured-subtitle {
+	display: none; /* No subtitle on the homepage */
+	}
+a.button, a.button:hover{
+	border: none;
+	background-color: grey;
+	background-image: none; 
+	transition:background-color 0.5s;
+	}
+a.button:hover{
+	background-color: black;
+	}
+div.excerpt p{
+	margin-top: 10px;
+  	margin-bottom: 0px;
+	}
+div.featured-post > h4 > a {
+	color: black;
+	}
+
+
+
+/*navigation menu*/
+#header .main-nav {
+	background-color: black;
+	background-image: none;
+	border-radius: 5px;
+	}
+.menu {
+	background-color: transparent;
+	background-image: none;
+	border: none;
+	font-weight: normal;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	letter-spacing: 5px;
+	width: auto;
+	}
+@media screen and (min-width: 650px) { /*desktop-specific rules*/
+	.menu > li{
+		display: inline-block; /* hack to center menu items by making them applicable in text-align */
+		float: none; /* overrides random theme declaration */
+		}
+	.menu {
+		padding: 0px 20px;
+		text-align: center; /* to center menu items */
+		}
+	.sub-menu{
+  		text-align: left; /* keep subs left */
+ 		}
+	#menu-item-243 > ul{
+		width: 300px;
+		}
+	}
+@media screen and (max-width: 650px) { /*mobile-specific rules*/
+  	img {
+		float: none !important;
+		text-align: center;
+  		}
+	#header div.main-nav {
+		margin-top: 10px;
+		}
+	}
+
+@media screen and (max-width: 990px) and (min-width: 850px) {
+	.menu {
+		padding: 0px 100px; /* hack to not leave one item by itself on the bottom */
+		}
+	}
+
+.menu a {
+	font-size: 16pt;
+	border: none;
+	transition:letter-spacing 0.5s;
+	text-shadow: none;
+	padding: 0px 15px;
+	}
+.menu a:hover {
+	letter-spacing: 7px;
+	background-color: rgb(85,85,85);
+	background-image: none;
+	}
+.page_item {
+	letter-spacing: 3px;
+	transition:letter-spacing 0.5s;
+	}
+.page_item:hover {
+	letter-spacing: 5px;
+	}
+ul .menu{
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	}
+.current_page_item a{
+	font-weight: bold;
+	}
+
+#logo img{
+	width: 100%;
+	}
+
+
+/* Content Pages */
+#content-full, #content, #content-blog {
+	margin-top: 10px;
+	}
+.post-meta{	/*remove "Posted on September 29, 2013 by admin — No Comments"*/
+	display: none;
+	}
+@media screen and (max-width: 1100px) {
+	.alignright .alignleft {
+		float: none;
+		display: block;
+		}
+	}
+#content img{
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid black;
+	border-radius: 5px;
+	height: auto;
+	width: auto;
+	text-align: center;
+	}
+.wp-caption p.wp-caption-text{
+	padding: 0px;
+	font-style: italic;
+	text-align: center;
+	padding-left: 30px;
+	}
+.wp-caption{
+	border: none;
+	background: none;
+	}
+.post-title a{
+	color: black;
+	}
+
+/* About Page */
+.about-description {
+	font-size: 16pt;
+	margin: 0px 50px;
+	line-height: 30px;
+	}
