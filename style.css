@@ -108,11 +108,11 @@ div.featured-post > h4 > a {
 		}
 	}
 
-@media screen and (max-width: 990px) and (min-width: 850px) {
-	.menu {
-		padding: 0px 100px; /* hack to not leave one item by itself on the bottom */
-		}
-	}
+@media screen and (max-width: 980px) and (min-width: 720px) {
+    .menu {
+            padding: 0px 120px;  /*hack to not leave one item by itself on the bottom */
+            }
+    }
 
 .menu a {
 	font-size: 16pt;
