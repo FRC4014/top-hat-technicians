@@ -16,6 +16,9 @@ if (!defined( 'ABSPATH' ))
 
 		<div class="post-entry">
 
+			<h1 class="title-404">Oh my.</h1>
+			<p>You&apos;re not supposed to be here, are you?</p>
+			<div style="text-align: center; font-size: 100pt; margin-top: 100px; margin-bottom: 150px;">404</div>
 			
 		</div><!-- end of .post-entry -->
 
