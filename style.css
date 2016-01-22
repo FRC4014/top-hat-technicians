@@ -184,8 +184,10 @@ ul .menu{
 	}
 
 /* About Page */
-.about-description {
-	font-size: 16pt;
-	margin: 0px 50px;
-	line-height: 30px;
-	}
+@media screen and (min-width: 650px) { /*on desktop*/
+    .about-description {
+            font-size: 16pt;
+            margin: 0px 50px;
+            line-height: 30px;
+            }
+    }
