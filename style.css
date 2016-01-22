@@ -161,13 +161,7 @@ ul .menu{
 		}
 	}
 #content img{
-	margin: 10px;
-	padding: 10px;
-	border: 3px solid black;
 	border-radius: 5px;
-	height: auto;
-	width: auto;
-	text-align: center;
 	}
 .wp-caption p.wp-caption-text{
 	padding: 0px;
