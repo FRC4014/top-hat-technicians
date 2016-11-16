@@ -58,7 +58,7 @@ $responsive_options = responsive_get_options();
 		<div class="grid col-300 fit powered"> <!-- Here's the modified bit -->
                     <a href="https://github.com/FRC4014/top-hat-technicians">Top Hat Technicians Theme</a> modified from
                     <a href="http://cyberchimps.com/responsive-theme/">Responsive.</a>
-                    Theme and custom Wordpress plugins 
+                    Theme &amp; custom Wordpress plugins 
                     available&nbsp;on&nbsp;<a href="https://github.com/FRC4014">Github.</a>
 		</div><!-- end .powered (and modification) -->
 
